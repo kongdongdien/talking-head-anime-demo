@@ -1,0 +1,13 @@
+version = 1
+
+test_patterns = [
+    "app/manual_poser.py",
+    "app/puppeteer.py"
+]
+
+[[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
